@@ -318,7 +318,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     double lat = Double.parseDouble(point.get("lat"));
                     double lng = Double.parseDouble(point.get("lng"));
                     LatLng position = new LatLng(lat, lng);
-
                     points.add(position);
                 }
 
@@ -327,12 +326,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 lineOptions.width(6);
                 lineOptions.color(Color.BLUE);
             }
-
             // Drawing polyline in the Google Map for the i-th route
             mMap.addPolyline(lineOptions);
             counter++;
             drawPath();
-
         }
 
     }
