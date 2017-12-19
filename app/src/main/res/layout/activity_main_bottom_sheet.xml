@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    tools:context="com.prerak.demo.bottomsheets.MainBottomSheetActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_20sdp">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:padding="@dimen/_16sdp"
+                android:text="Button1"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:padding="@dimen/_16sdp"
+                android:text="Button2"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:padding="@dimen/_16sdp"
+                android:text="Button3"
+                android:textAllCaps="false" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@android:color/holo_blue_bright"
+        android:clipToPadding="true"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="Bottom Sheet 1"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeepefsafsfzvgvddsgnhslbvdyvxvszvcssfcssdcsxbgfh"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
