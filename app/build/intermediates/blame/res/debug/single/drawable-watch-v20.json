@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    }
+]

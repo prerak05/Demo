@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/6c870bcfffb94411319a92910509b7180c918b4a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b0561c9a33f1cdf952667acb1382aed406be295c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/1a0c92afabff1bd4966fd31af469ad22c1b5d42e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_23fa454adedee28cf57cf46c1a7750b44dad8d69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/bb2b610c010c766126758c3bd5c772260e3b59bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2b12b18c5518021cc71577c83d1290f8ddaa3c98">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_13e6f38b4b7cb12b906823858c875c300c5d50d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/49874adac1dbe8eda870720579f02d8c48b5d51c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03d095f4254f29ded4e3118fe1bbf8f4103d8640/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="56d68d1174b9c1e368017a850b62b12429f39757">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3ee725055267704f15d3e46bd781c78bf802050/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/c4a564ff7547920f430a5039a1d5798b3616a246/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_95bef6ffaf46fca8157c2ab0b1bf24f5de5ed7a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/267438b554336d14e2cf5b97d3b9724a60f46714/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dc8f8e5148e4d281a11e8deb01f7c730e9009444/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/5bc4b419f0be4458542f68dce74c4bb28fc5fe42/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7104bb3720a2e708fa85d292284d2046d29e2a94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="576570f46ff6ccc69a984af9e55ddd58d9549270">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f15be7c1a9d10331a5d078845f89793992921021/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd040e8f0b701587c97d03a9c271bbad3d667c89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/3eca8415f42c422b45a36fbca7c09190fa12b2da/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eea424e61a0c85b93a0e477565314a58136abaea">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3127875276bf64126cb317760e9bd2bff86f801/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_33ab40ce67c78f88e3cc5e661cdafdb8d42a80a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_b44bb4caa433f34c89be3e80ee6faad2fbd5710a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8738b0065c8ac308e31587f0c49a50fd41646125/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/ebb5e2e6efa2ac377510edf17de60206e807a3d8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c72b1515efbd8ad652e2d63582c8234a979b1e53">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db1519e651a90a2fb7e73f0a79106ec64395ef6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/7a926c660336820a4bd42edf76e2ffabf0f0ba8d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6aa915c08cfd82780c10d4b957018bf819a48e2">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9f74652ac13792f7848955eda1b30c894008e4d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/5d3aa6b8f2bd692373bca698a6346bf1ab22cbb6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_571db879d7eb1d63b38b9c4b2523b288eb40c78d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2319369ab65b9dcddb2c2687117c9c258f8c0ddd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_fa229332de3942400209614616c32380ca21e522/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_8784de8c7cbfc78b7a27f0d8eb9d4536782e4da8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_9d369024cf4ed3bdb96aa2477a450e888d943e97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/75b87990ff4e352bdce5a5ef8064823a8404e999/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6cc9a3cf49940260f98644ed6173aed4feabc34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/d08589f38e1d24ea2f6eeed070ab4b447cedd038/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3ef9ae5144e2f944279b9190224eac0058125851/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/6b5324676948796bb72090df7423a688dd902b57/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="057fb316bed8467398333f30926c2d5506e275b2">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9f6eb4c0e02933339d11181b1745d6d2e7dcba7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/0faa89b76d05e00c2d639d7ef15c3971569085a9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bfba7cf662f7e3e2cfeb92226c6b84c08e590225">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77e055f06f043e22b55682ff4faf2aa28d79f81c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/beccc2f592baa8912ba64e51a72b17d0fb1f87ae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2ea2fd24ca8949ceb28bfa1f1097eee03e31e2d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/311f29f24487654f47171f80f7dbbe89cd72c286/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_311bfda857b7ea998b8a07b045ce564a85497b2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_8c1ba922b192e5e45ea98c037c17a1ded178e0d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/c8b6e79e7db4921fbecf73cec8ae73a4edd03978/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e6b78fbd659f890a5975e0956b44f701ba36a4a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c477d5e1b1a98213eb958523e122c00336f0c99d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/7fb217acd43238272b1a683b2bbe5ba28dcc58ce/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6706cc7c8c3093560edd55d322218afe7798aa9">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c3c59003a67be673138832eef1a469494be34ea8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/b0eafd46afc16b7d62dcbd0b356c13f76b03a0e6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_07d493bb5fb900dda93008779ac4f450cba89827/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/669245bb97e8d8c77782f5a7024209b92fffa6fc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8544f739799dd15db63927073a21312864ab0bfd">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e663f30a618a2eac0ba6d336243e87ee68e4bc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76998b981bbc4dce9ad2fee1788d4802b0f10e2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/753d44191e300b88f59ffaa71f67123df1dbc4d2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc3036436defd3070337b7191c50a136ebca7f8f">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_753a12f5aa83000cd93595d8d7bee8034a5b1306/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8b53ebb876aceb8bfcd753d371f8fb86fadcca47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de732f4f8c0432bde4d81b3df11f2ab26110871b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/53e9b911f0c6ac5f2e376e9492cb46ca873d9519/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c2daa26077aee31a2e3c86e3fea2fb2bf7b4a6c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6deb6cc9a91f53806592f8b7518554fcefd473c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/b395878f813732895ced3c52d52ea3deea3b256b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="377c5f26ebf67f3fa6ef2f663a58cac7ce647dde">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d8fa859328711e3d1a7b85f92e92d5ac6935f790/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_455df3a831bd92b4b304aed2edef7dd9eedbe321/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/74685fb52cae138b28c81985a6fdd709bd5677a5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_42e217cc35875432df9704fee688aa4bfa8c3fbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/eff2ac1f71785f7265777247bf2a4f6f2e496390/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="11262f887015dc774ff36eb66698308df0a376d1">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3cbcb0a77bea11d6540fddfca54a5a47a91bedf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/02e50e012e970cfcb5659f00ba073a95106aa5f2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_048da9c69146e23526b25cb1f2275581352b86a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/c8f30cf58b8429aad325a16c49cc87977796c71f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bce2b93e884a6ee3fe02aaa43aefc410a8f8893f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_c564f352ac59ab913fc46d77ca20e425b8262c65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0fb6d01fd735279c44aebf778100f6b734546004/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/a3e4e7cb48c54116961bdd8ddbf4f751c996ace1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_523507573b3112f5b3d27f5489013ba843df8a28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0c082c21ab36f3ebc8a93e15913310dfa32cde09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/a9dd856beb8932b3f0724d146665cd942f3b569e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2cf3a0ba583fcc2892516a996cfda8e4e16f7dfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/b70bcd90a15873526d6266fcea11a28e903ff292/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5594a368622908d89c47d9a391aa2724fe046c35">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51170ba16943a8c2037532dc8c57c28a53dafb69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f15e20dd7bcde7c688cfda44d0c8320a5c1c24b8">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac293a844251fa360e28b96f948a843f4d8b1f79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/2b973f048eaed1e9780d16c8b2828c5db03ae0fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c8bf878c09bf0df6ae76eb6c2df38c6a186b38b7">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_34c01a6dbdd0c3792cdf6865b95eb52a81b95284/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/399ffcb77386f7a8776968ebe4babb7ace5fe533/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9a1a42b13a90fa049a01963568186eb3c556add/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/cc61c8fc14f5d3795d548745b225cb26f0d38fd4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="76ea35b41786082af23db898ca9e0fc07cc71fb9">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_21d57c1c0fab14101ccd881d4167ac4d2a63b8b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/ae8e42718fc59b8a7b3034554e350c0465eac238/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_701ecafa30da03688862f10e06005d8c99442f50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/183b1b169ab7937185875fa462a207e0fd0bf017/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dcf7a5e168540c8b97dedb056af7e73fd742fe12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/44c317d9f10321b5e974cb9756cf46939cde1a72/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02b91f8efa91dcdf5c555ee24b7f006f02cd0f8b">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6ef55c3637ef16eb276d8febad376a21d43c85e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_839388b5c6a8fa7e8de49015cd839f5f069c9020/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/f8f32185e2c1aa570d33bcea0dd984238c7b06fe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e75b77bfe1541fa075a90cc914abe65e6bbe2222/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_acab256224f722199630d6f8e3d353a44f9c2e5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/3d3b088a669dc8590d87469ffce8d03a6016c7ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_00984f93624ecfae179562b28e8ecbd1d46f2ab7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/518088ca5dd4a7499fc94e8ac4035136d405ee59/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40a90b4db438bac3241244acc28d4af5fd5c6735/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/14ba69baa94a2a7cdc8b6ae2535d7548ab661da4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63b03eaa1aa9b9431c7638841175f9842dcbf274">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_16b2008485b3bea35ab90e3f30c0f40405d48bf4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/3248c45f228f66e69f49a748296057f92dcb56ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a5d52089bf4d31537232bb6bcb70cee817d8a374">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f388f6f876a320f1d233520b850fd9b73e79bd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_50b3aed5298c88c7d72461863f7c8a79f25c860c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_965e7d24e1edc81f38e9dce4b99cff4752f29c52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/fe2248d014a70fc56f06fe12bab521cefd28ce5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c379c235d7983201bb83edfc3c60bb0dafb5805">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66b802973d9abc80cab5f6abf06e906e967cf02a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/92cd7436267d9a9e4d68a89d142491b3f7b5ce66/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ffd0ddf5e57b4d60c4a3fbcd38fa20349a0cebd1">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db20a10d89ed100a1f7661a577127461d4eecb86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/8ca5785589557732bf30833fef9f4ede1d0aeab4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dae0d68af4c87df40eca67069861e53b7cefaaa0">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40f6d55a49dfcaf1ab52544a0dd516b5b1aef63e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/e62f90eb84b481971d0b5037c00b4e840a2abd18/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94dac256a3fe16a0efb3d94ffa6ae22a40eee6ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/2668f29498e1546f7c003250de7b96ad7ef396d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c175c3009577fad8b433703f5d7ac2dc21d3871f">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8a5fb7c89b021d8eff74f71200e82fdbed499ee8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/9090a9e286911923a8c72c26fe7f52b27a57ba56/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6b3430725095bd46b785e97bd34240826c27b4db">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3621759cb8b75d04e03441762ea3257a63a590d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/91b58e367b003b44e33d647a3583a1070b744078/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_98c5fe0bb84f0646fb356b3d6e65022a654f4582/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/e870f40dee73728800af4f6b7c6c5b8cf3f057d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c6c9ab152f97c4461368653aa75019a62a6d1c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/1a538bf2a03c749eb045ca5d7e86558e0f0c8530/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bb1ff617afee4c5444d36dca371088651aff23db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/emxcel/.android/build-cache/559e42734fa95a307c580839555dc1bac3e7c0e6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/home/emxcel/Desktop/Demo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_779a461f01ad94ab609d803a2f15a688af109432/classes.dex" />
+    </item>
+
+</items>

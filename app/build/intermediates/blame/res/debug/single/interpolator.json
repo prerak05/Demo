@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/interpolator/mr_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/interpolator/mr_linear_out_slow_in.xml"
+    }
+]

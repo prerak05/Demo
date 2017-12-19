@@ -1,0 +1,511 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:2:1-61:12
+	package
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /home/emxcel/.android/build-cache/753d44191e300b88f59ffaa71f67123df1dbc4d2/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /home/emxcel/.android/build-cache/53e9b911f0c6ac5f2e376e9492cb46ca873d9519/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/emxcel/.android/build-cache/c8b6e79e7db4921fbecf73cec8ae73a4edd03978/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/6c870bcfffb94411319a92910509b7180c918b4a/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:12:22-76
+application
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:14:5-59:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/emxcel/.android/build-cache/311f29f24487654f47171f80f7dbbe89cd72c286/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/emxcel/.android/build-cache/a9dd856beb8932b3f0724d146665cd942f3b569e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services:11.0.4] /home/emxcel/.android/build-cache/f193471b13ec0f80e41035e87cad123af1e0caeb/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /home/emxcel/.android/build-cache/92cd7436267d9a9e4d68a89d142491b3f7b5ce66/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/518088ca5dd4a7499fc94e8ac4035136d405ee59/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/02e50e012e970cfcb5659f00ba073a95106aa5f2/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.2.0] /home/emxcel/.android/build-cache/1a538bf2a03c749eb045ca5d7e86558e0f0c8530/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /home/emxcel/.android/build-cache/3d3b088a669dc8590d87469ffce8d03a6016c7ca/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.4] /home/emxcel/.android/build-cache/3eca8415f42c422b45a36fbca7c09190fa12b2da/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /home/emxcel/.android/build-cache/ebb5e2e6efa2ac377510edf17de60206e807a3d8/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /home/emxcel/.android/build-cache/753d44191e300b88f59ffaa71f67123df1dbc4d2/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/emxcel/.android/build-cache/d08589f38e1d24ea2f6eeed070ab4b447cedd038/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /home/emxcel/.android/build-cache/8ca5785589557732bf30833fef9f4ede1d0aeab4/output/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /home/emxcel/.android/build-cache/669245bb97e8d8c77782f5a7024209b92fffa6fc/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /home/emxcel/.android/build-cache/b395878f813732895ced3c52d52ea3deea3b256b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /home/emxcel/.android/build-cache/44c317d9f10321b5e974cb9756cf46939cde1a72/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /home/emxcel/.android/build-cache/183b1b169ab7937185875fa462a207e0fd0bf017/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /home/emxcel/.android/build-cache/53e9b911f0c6ac5f2e376e9492cb46ca873d9519/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /home/emxcel/.android/build-cache/0faa89b76d05e00c2d639d7ef15c3971569085a9/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/emxcel/.android/build-cache/c8b6e79e7db4921fbecf73cec8ae73a4edd03978/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/emxcel/.android/build-cache/559e42734fa95a307c580839555dc1bac3e7c0e6/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /home/emxcel/.android/build-cache/fe2248d014a70fc56f06fe12bab521cefd28ce5f/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /home/emxcel/.android/build-cache/7fb217acd43238272b1a683b2bbe5ba28dcc58ce/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /home/emxcel/.android/build-cache/b70bcd90a15873526d6266fcea11a28e903ff292/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /home/emxcel/.android/build-cache/6b5324676948796bb72090df7423a688dd902b57/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /home/emxcel/.android/build-cache/74685fb52cae138b28c81985a6fdd709bd5677a5/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /home/emxcel/.android/build-cache/b0eafd46afc16b7d62dcbd0b356c13f76b03a0e6/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/6c870bcfffb94411319a92910509b7180c918b4a/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /home/emxcel/.android/build-cache/14ba69baa94a2a7cdc8b6ae2535d7548ab661da4/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /home/emxcel/.android/build-cache/9090a9e286911923a8c72c26fe7f52b27a57ba56/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /home/emxcel/.android/build-cache/2b973f048eaed1e9780d16c8b2828c5db03ae0fb/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/emxcel/.android/build-cache/7a926c660336820a4bd42edf76e2ffabf0f0ba8d/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/emxcel/.android/build-cache/e870f40dee73728800af4f6b7c6c5b8cf3f057d3/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/emxcel/.android/build-cache/c4a564ff7547920f430a5039a1d5798b3616a246/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/emxcel/.android/build-cache/c8f30cf58b8429aad325a16c49cc87977796c71f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/ae8e42718fc59b8a7b3034554e350c0465eac238/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/emxcel/.android/build-cache/a3e4e7cb48c54116961bdd8ddbf4f751c996ace1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/emxcel/.android/build-cache/91b58e367b003b44e33d647a3583a1070b744078/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/emxcel/.android/build-cache/1a0c92afabff1bd4966fd31af469ad22c1b5d42e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/f8f32185e2c1aa570d33bcea0dd984238c7b06fe/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:17:9-41
+	android:supportsRtl
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:19:9-35
+	android:roundIcon
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:18:9-54
+	android:allowBackup
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:16:9-43
+	android:theme
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:20:9-40
+activity#com.prerak.demo.MainActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:21:9-50
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:21:19-47
+activity#com.prerak.demo.SignUpActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:22:9-52
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:22:19-49
+activity#com.prerak.demo.dogbreads.DogMainActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:23:9-63
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:23:19-60
+activity#com.prerak.demo.dogbreads.DogImageActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:24:9-64
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:24:19-61
+activity#com.prerak.demo.dogbreads.SubBreadActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:25:9-64
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:25:19-61
+activity#com.prerak.demo.dogbreads.SubBreadImageActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:26:19-66
+activity#com.prerak.demo.bottomsheets.MainBottomSheetActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:27:19-71
+activity#com.prerak.demo.imageupload.ImageActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:28:9-30:20
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:28:19-60
+meta-data#com.google.android.gms.version
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:40:9-41:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/emxcel/.android/build-cache/c4a564ff7547920f430a5039a1d5798b3616a246/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:41:13-66
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:40:20-65
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:43:9-45:55
+	android:value
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:44:13-58
+activity#com.prerak.demo.mapusingplaceapi.PlaceAPIMap
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:47:9-49:20
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:47:19-63
+activity#com.prerak.demo.googlemapdirection.MapsActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:50:9-58:20
+	android:label
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:51:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:56:27-74
+uses-sdk
+INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/emxcel/.android/build-cache/311f29f24487654f47171f80f7dbbe89cd72c286/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.4] /home/emxcel/.android/build-cache/eff2ac1f71785f7265777247bf2a4f6f2e496390/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/267438b554336d14e2cf5b97d3b9724a60f46714/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/emxcel/.android/build-cache/a9dd856beb8932b3f0724d146665cd942f3b569e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services:11.0.4] /home/emxcel/.android/build-cache/f193471b13ec0f80e41035e87cad123af1e0caeb/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /home/emxcel/.android/build-cache/5bc4b419f0be4458542f68dce74c4bb28fc5fe42/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /home/emxcel/.android/build-cache/cc61c8fc14f5d3795d548745b225cb26f0d38fd4/output/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /home/emxcel/.android/build-cache/75b87990ff4e352bdce5a5ef8064823a8404e999/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /home/emxcel/.android/build-cache/92cd7436267d9a9e4d68a89d142491b3f7b5ce66/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/518088ca5dd4a7499fc94e8ac4035136d405ee59/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/02e50e012e970cfcb5659f00ba073a95106aa5f2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:25.2.0] /home/emxcel/.android/build-cache/1a538bf2a03c749eb045ca5d7e86558e0f0c8530/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /home/emxcel/.android/build-cache/3d3b088a669dc8590d87469ffce8d03a6016c7ca/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] /home/emxcel/.android/build-cache/3eca8415f42c422b45a36fbca7c09190fa12b2da/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /home/emxcel/.android/build-cache/ebb5e2e6efa2ac377510edf17de60206e807a3d8/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /home/emxcel/.android/build-cache/753d44191e300b88f59ffaa71f67123df1dbc4d2/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/emxcel/.android/build-cache/d08589f38e1d24ea2f6eeed070ab4b447cedd038/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] /home/emxcel/.android/build-cache/399ffcb77386f7a8776968ebe4babb7ace5fe533/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /home/emxcel/.android/build-cache/5d3aa6b8f2bd692373bca698a6346bf1ab22cbb6/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /home/emxcel/.android/build-cache/8ca5785589557732bf30833fef9f4ede1d0aeab4/output/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.4] /home/emxcel/.android/build-cache/e62f90eb84b481971d0b5037c00b4e840a2abd18/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /home/emxcel/.android/build-cache/49874adac1dbe8eda870720579f02d8c48b5d51c/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /home/emxcel/.android/build-cache/669245bb97e8d8c77782f5a7024209b92fffa6fc/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /home/emxcel/.android/build-cache/b395878f813732895ced3c52d52ea3deea3b256b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /home/emxcel/.android/build-cache/44c317d9f10321b5e974cb9756cf46939cde1a72/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /home/emxcel/.android/build-cache/183b1b169ab7937185875fa462a207e0fd0bf017/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /home/emxcel/.android/build-cache/53e9b911f0c6ac5f2e376e9492cb46ca873d9519/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /home/emxcel/.android/build-cache/0faa89b76d05e00c2d639d7ef15c3971569085a9/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/emxcel/.android/build-cache/c8b6e79e7db4921fbecf73cec8ae73a4edd03978/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /home/emxcel/.android/build-cache/bb2b610c010c766126758c3bd5c772260e3b59bb/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/emxcel/.android/build-cache/559e42734fa95a307c580839555dc1bac3e7c0e6/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /home/emxcel/.android/build-cache/fe2248d014a70fc56f06fe12bab521cefd28ce5f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /home/emxcel/.android/build-cache/7fb217acd43238272b1a683b2bbe5ba28dcc58ce/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /home/emxcel/.android/build-cache/b70bcd90a15873526d6266fcea11a28e903ff292/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /home/emxcel/.android/build-cache/6b5324676948796bb72090df7423a688dd902b57/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /home/emxcel/.android/build-cache/74685fb52cae138b28c81985a6fdd709bd5677a5/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /home/emxcel/.android/build-cache/2668f29498e1546f7c003250de7b96ad7ef396d3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /home/emxcel/.android/build-cache/b0eafd46afc16b7d62dcbd0b356c13f76b03a0e6/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/6c870bcfffb94411319a92910509b7180c918b4a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /home/emxcel/.android/build-cache/14ba69baa94a2a7cdc8b6ae2535d7548ab661da4/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /home/emxcel/.android/build-cache/9090a9e286911923a8c72c26fe7f52b27a57ba56/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /home/emxcel/.android/build-cache/3248c45f228f66e69f49a748296057f92dcb56ec/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /home/emxcel/.android/build-cache/2b973f048eaed1e9780d16c8b2828c5db03ae0fb/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/emxcel/.android/build-cache/7a926c660336820a4bd42edf76e2ffabf0f0ba8d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/emxcel/.android/build-cache/e870f40dee73728800af4f6b7c6c5b8cf3f057d3/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/emxcel/.android/build-cache/c4a564ff7547920f430a5039a1d5798b3616a246/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/emxcel/.android/build-cache/c8f30cf58b8429aad325a16c49cc87977796c71f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/ae8e42718fc59b8a7b3034554e350c0465eac238/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/emxcel/.android/build-cache/a3e4e7cb48c54116961bdd8ddbf4f751c996ace1/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/emxcel/.android/build-cache/91b58e367b003b44e33d647a3583a1070b744078/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/emxcel/.android/build-cache/1a0c92afabff1bd4966fd31af469ad22c1b5d42e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/f8f32185e2c1aa570d33bcea0dd984238c7b06fe/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.1] /home/emxcel/.android/build-cache/beccc2f592baa8912ba64e51a72b17d0fb1f87ae/output/AndroidManifest.xml:18:5-42
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/267438b554336d14e2cf5b97d3b9724a60f46714/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/emxcel/.android/build-cache/a9dd856beb8932b3f0724d146665cd942f3b569e/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/518088ca5dd4a7499fc94e8ac4035136d405ee59/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/02e50e012e970cfcb5659f00ba073a95106aa5f2/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/emxcel/.android/build-cache/c8f30cf58b8429aad325a16c49cc87977796c71f/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/ae8e42718fc59b8a7b3034554e350c0465eac238/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/emxcel/.android/build-cache/a3e4e7cb48c54116961bdd8ddbf4f751c996ace1/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/emxcel/.android/build-cache/91b58e367b003b44e33d647a3583a1070b744078/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/emxcel/.android/build-cache/1a0c92afabff1bd4966fd31af469ad22c1b5d42e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/f8f32185e2c1aa570d33bcea0dd984238c7b06fe/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:23:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /home/emxcel/.android/build-cache/fe2248d014a70fc56f06fe12bab521cefd28ce5f/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/6c870bcfffb94411319a92910509b7180c918b4a/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/6c870bcfffb94411319a92910509b7180c918b4a/output/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/emxcel/.android/build-cache/8a0772860f08ec2099a79522ecd0f9782a33b8ed/output/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.android/build-cache/d2005a93fd372ebc6fb71a6f2593f5338013ecff/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/emxcel/.android/build-cache/71b843ffe1addc4a270b23d39b2333755079ef3f/output/AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /home/emxcel/.android/build-cache/53e9b911f0c6ac5f2e376e9492cb46ca873d9519/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/emxcel/.android/build-cache/c8b6e79e7db4921fbecf73cec8ae73a4edd03978/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /home/emxcel/.android/build-cache/53e9b911f0c6ac5f2e376e9492cb46ca873d9519/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:25:94-117
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:25:118-142
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/emxcel/.android/build-cache/1a191f406fd4e9b77809bb37d2ee71cc19130fa4/output/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/emxcel/.android/build-cache/c64de0fcaddb35d0da630ec6277dcdad14665e9c/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/emxcel/.android/build-cache/f5399a4a0e74a52ee3644049f694617604e28934/output/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/emxcel/.android/build-cache/d7a4c854ddea9f3557baa55f7d3d655a6ead6dd0/output/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.4] /home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/emxcel/.android/build-cache/781e5617cb0cf6b867ade9401078d3cff647c597/output/AndroidManifest.xml:6:79-143
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/emxcel/.android/build-cache/6aebd77d5a5d229c873ab66d8c5f24041a8b8ee1/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:19:19-85

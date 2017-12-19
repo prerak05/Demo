@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/home/emxcel/.android/build-cache/6b5324676948796bb72090df7423a688dd902b57/output/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/home/emxcel/.android/build-cache/6b5324676948796bb72090df7423a688dd902b57/output/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/home/emxcel/.android/build-cache/6b5324676948796bb72090df7423a688dd902b57/output/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/home/emxcel/.android/build-cache/6b5324676948796bb72090df7423a688dd902b57/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+    }
+]
