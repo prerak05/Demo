@@ -8,12 +8,12 @@
         "source": "/home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/activity_dog_image.xml",
         "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/activity_dog_image.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",

@@ -29,6 +29,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -64,7 +65,8 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
     LatLng sourceLatLang;
     LatLng destinationLatLng;
     double currentLat, currentLng;
-    String strSourceAdd,strDestinationAdd;
+    String strSourceAdd, strDestinationAdd, source, desti;
+    Place place;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -80,6 +82,8 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         mLocationRequest.setSmallestDisplacement(30);
         mLocationRequest.setInterval(1000);
+
+        getCurrentLocation();
     }
 
     private void init() {
@@ -115,24 +119,32 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        getCurrentLocation();
+    }
+
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         if (requestCode == 100 && resultCode == RESULT_OK) {
             // retrive the data by using getPlace() method.
-            Place place = PlaceAutocomplete.getPlace(this, data);
+            place = PlaceAutocomplete.getPlace(this, data);
             Log.e("Tag", "Place: " + place.getAddress() + place.getPhoneNumber());
             strSourceAdd = place.getAddress().toString();
             et_pickup_add.setText(strSourceAdd);
             sourceLatLang = place.getLatLng();
+            source = place.getAddress().toString();
             Toast.makeText(this, "sourceLatLang " + sourceLatLang, Toast.LENGTH_SHORT).show();
         } else if (requestCode == 101 && resultCode == RESULT_OK) {
             // retrive the data by using getPlace() method.
-            Place place = PlaceAutocomplete.getPlace(this, data);
+            place = PlaceAutocomplete.getPlace(this, data);
             destinationLatLng = place.getLatLng();
             Toast.makeText(this, "destinationLatLng" + destinationLatLng, Toast.LENGTH_SHORT).show();
             Log.e("Tag", "Place: " + place.getAddress() + place.getPhoneNumber());
             strDestinationAdd = place.getAddress().toString();
             et_destination_add.setText(strDestinationAdd);
+            desti = place.getAddress().toString();
         } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {
             Status status = PlaceAutocomplete.getStatus(this, data);
             // TODO: Handle the error.
@@ -144,14 +156,14 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
             Toast.makeText(PlaceAPIMap.this, "The user canceled the operation.", Toast.LENGTH_LONG).show();
         }
 
-         if (sourceLatLang != null && destinationLatLng != null){
-             drawRout(sourceLatLang,destinationLatLng);
-         }
+        if (sourceLatLang != null && destinationLatLng != null) {
+            drawRout(sourceLatLang, destinationLatLng);
+        }
     }
 
     private void drawRout(LatLng sourceLatLang, LatLng destinationLatLng) {
-
-        String url = getDirectionsUrl(new LatLng(sourceLatLang.latitude,sourceLatLang.longitude), new LatLng(destinationLatLng.latitude,destinationLatLng.longitude));
+        mMap.clear();
+        String url = getDirectionsUrl(new LatLng(sourceLatLang.latitude, sourceLatLang.longitude), new LatLng(destinationLatLng.latitude, destinationLatLng.longitude));
 
         DownloadTask downloadTask = new DownloadTask();
 
@@ -187,7 +199,9 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
-    private class DownloadTask  extends AsyncTask<String,Void,String> {
+
+
+    private class DownloadTask extends AsyncTask<String, Void, String> {
         @Override
         protected String doInBackground(String... strings) {
             String data = "";
@@ -210,6 +224,7 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
             parserTask.execute(s);
         }
     }
+
     private String downloadUrl(String string) throws IOException {
         String data = "";
         InputStream iStream = null;
@@ -287,7 +302,7 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
 
                     double lat = Double.parseDouble(point.get("lat"));
                     double lng = Double.parseDouble(point.get("lng"));
-                     position = new LatLng(lat, lng);
+                    position = new LatLng(lat, lng);
 
                     points.add(position);
                 }
@@ -301,10 +316,20 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
             // Drawing polyline in the Google Map for the i-th route
             if (lineOptions != null) {
                 mMap.addPolyline(lineOptions);
+                mMap.addMarker(new MarkerOptions().position(sourceLatLang).title(source));
+                mMap.addMarker(new MarkerOptions().position(destinationLatLng).title(desti));
+
+                mMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
+                        .target(new LatLng(position.latitude, position.longitude))
+                        .zoom(14f)
+                        .build()));
                 if (strSourceAdd.length() != 0 && strDestinationAdd.length() != 0) {
                     et_pickup_add.setText("");
                     et_destination_add.setText("");
+                    sourceLatLang = null;
+                    destinationLatLng = null;
                 }
+
 //                drawRout(position, position);
             }
         }
@@ -315,6 +340,7 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+//      getCurrentLocation();
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -328,15 +354,45 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
         mFusedLocationClient.getLastLocation().addOnSuccessListener(new OnSuccessListener<Location>() {
             @Override
             public void onSuccess(Location location) {
-                if (location != null) ;
+                if (location != null)
+                    currentLat = location.getLatitude();
+                Toast.makeText(PlaceAPIMap.this, "lat" + currentLat, Toast.LENGTH_SHORT).show();
+                currentLng = location.getLongitude();
+                Toast.makeText(PlaceAPIMap.this, "lng" + currentLng, Toast.LENGTH_SHORT).show();
+                LatLng current = new LatLng(currentLat, currentLng);
+                mMap.addMarker(new MarkerOptions().position(current).title("Marker in Current").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+                mMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
+                        .target(new LatLng(currentLat, currentLng))
+                        .zoom(14f)
+                        .build()));
+
+            }
+        });
+    }
+
+    private void getCurrentLocation() {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        mFusedLocationClient.getLastLocation().addOnSuccessListener(new OnSuccessListener<Location>() {
+            @Override
+            public void onSuccess(Location location) {
+                if (location != null)
                 currentLat = location.getLatitude();
                 Toast.makeText(PlaceAPIMap.this, "lat" + currentLat, Toast.LENGTH_SHORT).show();
                 currentLng = location.getLongitude();
                 Toast.makeText(PlaceAPIMap.this, "lng" + currentLng, Toast.LENGTH_SHORT).show();
                 LatLng current = new LatLng(currentLat, currentLng);
-                mMap.addMarker(new MarkerOptions().position(current).title("Marker in Current"));
+                mMap.addMarker(new MarkerOptions().position(current).title("Marker in Current").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
                 mMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
-                        .target(new LatLng(currentLat,currentLng))
+                        .target(new LatLng(currentLat, currentLng))
                         .zoom(14f)
                         .build()));
 
