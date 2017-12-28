@@ -20,24 +20,24 @@
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/color/common_google_signin_btn_tint.xml"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
@@ -56,12 +56,12 @@
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
-        "source": "/home/emxcel/.android/build-cache/3248c45f228f66e69f49a748296057f92dcb56ec/output/res/color/wallet_secondary_text_holo_dark.xml"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/home/emxcel/.android/build-cache/3248c45f228f66e69f49a748296057f92dcb56ec/output/res/color/wallet_secondary_text_holo_dark.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",

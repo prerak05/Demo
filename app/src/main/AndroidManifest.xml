@@ -26,7 +26,6 @@
         <activity android:name=".dogbreads.SubBreadImageActivity" />
         <activity android:name=".bottomsheets.MainBottomSheetActivity"></activity>
         <activity android:name=".imageupload.ImageActivity">
-
         </activity>
 
         <!--
