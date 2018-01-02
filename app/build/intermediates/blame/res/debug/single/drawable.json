@@ -8,12 +8,12 @@
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
-        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable/cast_ic_expanded_controller_stop.xml"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
+        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable/cast_ic_expanded_controller_stop.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/mr_media_pause_light.xml",
@@ -52,12 +52,12 @@
         "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable/cast_ic_expanded_controller_play.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
@@ -84,16 +84,16 @@
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/drawable/notification_bg_low.xml"
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/mr_group_expand.xml",
+        "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/drawable/mr_group_expand.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/mr_group_expand.xml",
-        "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/drawable/mr_group_expand.xml"
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",

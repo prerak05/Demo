@@ -49,8 +49,7 @@
         <activity android:name="com.prerak.demo.dogbreads.SubBreadActivity" />
         <activity android:name="com.prerak.demo.dogbreads.SubBreadImageActivity" />
         <activity android:name="com.prerak.demo.bottomsheets.MainBottomSheetActivity" />
-        <activity android:name="com.prerak.demo.imageupload.ImageActivity" >
-        </activity>
+        <activity android:name="com.prerak.demo.imageupload.ImageActivity" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -67,17 +66,21 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.prerak.demo.mapusingplaceapi.PlaceAPIMap" >
+        <activity android:name="com.prerak.demo.mapusingplaceapi.PlaceAPIMap" />
+        <activity
+            android:name="com.prerak.demo.googlemapdirection.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name="com.prerak.demo.recyclerViewusingspinner.MainRecyclerActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.prerak.demo.googlemapdirection.MapsActivity"
-            android:label="@string/title_activity_maps" >
+        <activity android:name="com.prerak.demo.recyclerViewwithcheckbox.RecyclerCheckBoxActivity" >
         </activity>
+        <activity android:name="com.prerak.demo.recyclerViewwithcheckbox.DisplayCheckboxActivity" />
+        <activity android:name="com.prerak.demo.recyclerViewusingspinner.DisplaySpinnerActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

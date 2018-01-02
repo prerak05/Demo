@@ -32,8 +32,16 @@
         "source": "/home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/res/layout/design_navigation_item_subheader.xml"
     },
     {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/activity_recycler_check_box.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/activity_recycler_check_box.xml"
+    },
+    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/place_api_map_layout.xml",
         "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/place_api_map_layout.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/raw_recycler_checkbox_layout.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/raw_recycler_checkbox_layout.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
@@ -140,8 +148,16 @@
         "source": "/home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/activity_display_spinner.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/activity_display_spinner.xml"
+    },
+    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/activity_display_checkbox.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/activity_display_checkbox.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -186,6 +202,10 @@
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
         "source": "/home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/raw_recycler_lauout.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/raw_recycler_lauout.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -282,6 +302,10 @@
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/activity_main_recycler.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/activity_main_recycler.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",

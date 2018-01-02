@@ -24,9 +24,8 @@
         <activity android:name=".dogbreads.DogImageActivity" />
         <activity android:name=".dogbreads.SubBreadActivity" />
         <activity android:name=".dogbreads.SubBreadImageActivity" />
-        <activity android:name=".bottomsheets.MainBottomSheetActivity"></activity>
-        <activity android:name=".imageupload.ImageActivity">
-        </activity>
+        <activity android:name=".bottomsheets.MainBottomSheetActivity" />
+        <activity android:name=".imageupload.ImageActivity" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -36,25 +35,29 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/. 
         -->
-        <meta-data android:name="com.google.android.gms.version"
+        <meta-data
+            android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".mapusingplaceapi.PlaceAPIMap">
+        <activity android:name=".mapusingplaceapi.PlaceAPIMap"></activity>
+        <activity
+            android:name=".googlemapdirection.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".recyclerViewusingspinner.MainRecyclerActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".googlemapdirection.MapsActivity"
-            android:label="@string/title_activity_maps">
+        <activity android:name=".recyclerViewwithcheckbox.RecyclerCheckBoxActivity">
 
         </activity>
+        <activity android:name=".recyclerViewwithcheckbox.DisplayCheckboxActivity" />
+        <activity android:name=".recyclerViewusingspinner.DisplaySpinnerActivity"></activity>
     </application>
 
 </manifest>
