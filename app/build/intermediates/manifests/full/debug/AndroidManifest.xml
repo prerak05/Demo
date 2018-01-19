@@ -17,10 +17,9 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -36,6 +35,7 @@
         android:required="true" />
 
     <application
+        android:name="com.prerak.demo.realm.ApplicationClass"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -66,22 +66,31 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.prerak.demo.mapusingplaceapi.PlaceAPIMap" />
         <activity
             android:name="com.prerak.demo.googlemapdirection.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="com.prerak.demo.recyclerViewusingspinner.MainRecyclerActivity" >
+        <activity android:name="com.prerak.demo.mapusingplaceapi.PlaceAPIMap" />
+        <activity android:name="com.prerak.demo.recyclerViewusingspinner.MainRecyclerActivity" />
+        <activity android:name="com.prerak.demo.recyclerViewwithcheckbox.RecyclerCheckBoxActivity" />
+        <activity android:name="com.prerak.demo.recyclerViewwithcheckbox.DisplayCheckboxActivity" />
+        <activity android:name="com.prerak.demo.recyclerViewusingspinner.DisplaySpinnerActivity" />
+        <activity android:name="com.prerak.demo.got.model.BookActivity" />
+        <activity android:name="com.prerak.demo.music.MainMusicActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.prerak.demo.recyclerViewwithcheckbox.RecyclerCheckBoxActivity" >
-        </activity>
-        <activity android:name="com.prerak.demo.recyclerViewwithcheckbox.DisplayCheckboxActivity" />
-        <activity android:name="com.prerak.demo.recyclerViewusingspinner.DisplaySpinnerActivity" />
-        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+
+        <service android:name="com.prerak.demo.music.service.MusicService" />
+
+        <activity android:name="com.prerak.demo.music.fragment.TestFragment" />
+        <activity android:name="com.prerak.demo.realm.RealmMainActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -208,6 +217,10 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

@@ -19,7 +19,9 @@ public class AppConstant {
     //ToDo Variable Declaration
     public static boolean isAlreadyLoggedIn=false;
 //    public static String baseURL="https://dog.ceo/";
-    public static  String baseURL = "http://10.0.2.2:8080";
+//    public static  String baseURL = "http://10.0.2.2:8080";
+    public static  String baseURL = "https://anapioficeandfire.com/";
+
 
   // Todo: Setup Retrofit
     public static APIService setupRetrofit(String url){

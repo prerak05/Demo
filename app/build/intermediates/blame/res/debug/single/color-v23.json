@@ -1,46 +1,42 @@
 [
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_tint_btn_checkable.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_color_highlight_material.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_tint_switch_track.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_tint_switch_track.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_tint_default.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_tint_default.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/res/color-v23/design_tint_password_toggle.xml"
+        "source": "/home/emxcel/.android/build-cache/ec4edfbb67170ebc01163d4845187d3f144ae16f/output/res/color-v23/design_tint_password_toggle.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/color-v23/abc_tint_edittext.xml"
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/color-v23/abc_tint_edittext.xml"
     }
 ]

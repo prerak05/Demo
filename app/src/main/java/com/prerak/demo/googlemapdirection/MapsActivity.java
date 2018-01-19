@@ -1,6 +1,9 @@
 package com.prerak.demo.googlemapdirection;
 
 import android.Manifest;
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
@@ -12,6 +15,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.animation.LinearInterpolator;
 import android.widget.Toast;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -23,6 +27,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -53,6 +58,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private ScheduledExecutorService scheduleTaskExecutor;
     private ArrayList<LatLng> polygon;
     int counter = 1;
+    float originalZoom = 22.0f;
+    Marker mMarker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,9 +73,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mFusedLocationClient = new FusedLocationProviderClient(this);
         mLocationRequest = new LocationRequest();
         mLocationRequest = LocationRequest.create();
-        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         mLocationRequest.setSmallestDisplacement(30);
-        mLocationRequest.setInterval(1000);
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+//        mLocationRequest.setInterval(1000);
 
 
     }
@@ -118,13 +125,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     Toast.makeText(MapsActivity.this, "latitude ==>" + lat, Toast.LENGTH_SHORT).show();
                     lng = location.getLongitude();
                     Toast.makeText(MapsActivity.this, "longitude==>" + lng, Toast.LENGTH_SHORT).show();
+                    mMarker = mMap.addMarker(new MarkerOptions().position(new LatLng(lat, lng)).icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_car)));
+                    mMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
+                            .target(new LatLng(lat, lng))
+                            .zoom(originalZoom)
+                            .build()));
                     // Add a marker in Sydney and move the camera
-                    LatLng sydney = new LatLng(lat, lng);
-                    //Set Custom InfoWindow Adapter
-                    CustomInfoWindowAdapter adapter = new CustomInfoWindowAdapter(MapsActivity.this,sydney);
-                    mMap.setInfoWindowAdapter(adapter);
-                    mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-                    mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+//                    LatLng sydney = new LatLng(lat, lng);
+//                    //Set Custom InfoWindow Adapter
+//                    CustomInfoWindowAdapter adapter = new CustomInfoWindowAdapter(MapsActivity.this,sydney);
+//                    mMap.setInfoWindowAdapter(adapter);
+//                    mMarker = mMap.addMarker(new MarkerOptions().position(lat, lng).title("Marker in Sydney"));
+//                    mMap.moveCamera(CameraUpdateFactory.newLatLng(lat,lng));
 
                     getLocationArray();
 
@@ -140,50 +152,73 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         scheduleTaskExecutor.scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
-                if (ActivityCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                    // TODO: Consider calling
-                    //    ActivityCompat#requestPermissions
-                    // here to request the missing permissions, and then overriding
-                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                    //                                          int[] grantResults)
-                    // to handle the case where the user grants the permission. See the documentation
-                    // for ActivityCompat#requestPermissions for more details.
-                    return;
-                }
-                mFusedLocationClient.getLastLocation().addOnSuccessListener(new OnSuccessListener<Location>() {
-                    @Override
-                    public void onSuccess(Location location) {
-                      if (location != null){
-                        if (polygon.size() == 0){
-                                polygon.add(new LatLng(location.getLatitude(),location.getLongitude()));
-                            mMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
-                                    .target(new LatLng(location.getLatitude(), location.getLongitude()))
-                                    .zoom(16f)
-                                    .build()));
-                        }else if (polygon.size() > 0){
-                            if (polygon.get(polygon.size() - 1).latitude != location.getLatitude() || polygon.get(polygon.size() - 1).longitude != location.getLongitude()){
-                                polygon.add(new LatLng(location.getLatitude(),location.getLongitude()));
-                                  if (location.getAccuracy() <= 13){
-                                    drawPath();
-                                    Toast.makeText(MapsActivity.this, "Accuracy==> " + location.getAccuracy(), Toast.LENGTH_SHORT).show();
-                                }
+                // Do stuff here!
 
-                            }
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        // Do stuff to update UI here!
+
+                        if (ActivityCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                            // TODO: Consider calling
+                            //    ActivityCompat#requestPermissions
+                            // here to request the missing permissions, and then overriding
+                            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                            //                                          int[] grantResults)
+                            // to handle the case where the user grants the permission. See the documentation
+                            // for ActivityCompat#requestPermissions for more details.
+                            return;
                         }
-                      }
+                        mFusedLocationClient.getLastLocation()
+                                .addOnSuccessListener(MapsActivity.this, new OnSuccessListener<Location>() {
+                                    @Override
+                                    public void onSuccess(Location location) {
+                                        // Got last known location. In some rare situations this can be null.
+                                        if (location != null) {
+                                            // ...
+
+                                        //    sendData(location.getLatitude(), location.getLongitude());
+                                            if (polygon.size() == 0) {
+//                                                mMarker = mMap.addMarker(new MarkerOptions().position(new LatLng(location.getLatitude(), location.getLongitude())).icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_car)));
+                                                polygon.add(new LatLng(location.getLatitude(), location.getLongitude()));
+                                                mMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
+                                                        .target(new LatLng(location.getLatitude(), location.getLongitude()))
+                                                        .zoom(originalZoom)
+                                                        .build()));
+
+                                            //    locationStr = "polygon.add(new LatLng(" + location.getLatitude() + "," + location.getLongitude() + "));\n";
+                                            } else if (polygon.size() > 0) {
+                                                if (polygon.get(polygon.size() - 1).latitude != location.getLatitude() || polygon.get(polygon.size() - 1).longitude != location.getLongitude()) {
+                                                   // locationStr += "polygon.add(new LatLng(" + location.getLatitude() + "," + location.getLongitude() + "));\n";
+                                                    polygon.add(new LatLng(location.getLatitude(), location.getLongitude()));
+                                                    if (location.getAccuracy() <= 12) {
+                                                        Toast.makeText(MapsActivity.this, "Accuracy is = " + location.getAccuracy(), Toast.LENGTH_SHORT).show();
+                                                        drawPath();
+                                                    }
+                                                }
+                                            }
+
+
+                                        }
+                                    }
+                                });
                     }
                 });
+
             }
-        },0, 5, TimeUnit.SECONDS);
+        }, 0, 5, TimeUnit.SECONDS);
+
     }
 
     private void drawPath() {
+        Toast.makeText(this, "draw path", Toast.LENGTH_SHORT).show();
       if (polygon.size() > 0 && isNetworkAvailable(getApplicationContext()) && counter < polygon.size()){
           String url = getDirectionsUrl(new LatLng(polygon.get(counter - 1).latitude, polygon.get(counter - 1).longitude), new LatLng(polygon.get(counter).latitude, polygon.get(counter).longitude));
 
           DownloadTask downloadTask = new DownloadTask();
 
           downloadTask.execute(url);
+          animateMarkerNew(polygon.get(counter).latitude, polygon.get(counter).longitude, mMarker);
       }
     }
 
@@ -332,4 +367,100 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
     }
+
+    private void animateMarkerNew(final Double destinationLat, final Double destinationlon, final Marker marker) {
+
+        originalZoom = mMap.getCameraPosition().zoom;
+
+        if (marker.getPosition().latitude == destinationLat && marker.getPosition().longitude == destinationlon) {
+
+            marker.setPosition(marker.getPosition());
+//            googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
+//                    .target(marker.getPosition())
+//                    .zoom(originalZoom)
+//                    .build()));
+
+        } else if (marker != null) {
+
+//            final LatLng startPosition = new LatLng(sourceLocation.getLatitude(), sourceLocation.getLongitude());
+            final LatLng startPosition = marker.getPosition();
+
+            Log.d("MarkerPosition", String.valueOf(startPosition.latitude));
+
+
+            final LatLng endPosition = new LatLng(destinationLat, destinationlon);
+
+            final float startRotation = marker.getRotation();
+            final LatLngInterpolatorNew latLngInterpolator = new LatLngInterpolatorNew.LinearFixed();
+
+            ValueAnimator valueAnimator = ValueAnimator.ofFloat(0, 1);
+            valueAnimator.setDuration(3000); // duration 3 second
+            valueAnimator.setInterpolator(new LinearInterpolator());
+            valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                @Override
+                public void onAnimationUpdate(ValueAnimator animation) {
+                    try {
+                        float v = animation.getAnimatedFraction();
+                        LatLng newPosition = latLngInterpolator.interpolate(v, startPosition, endPosition);
+                        marker.setPosition(newPosition);
+                        mMap.moveCamera(CameraUpdateFactory.newCameraPosition(new CameraPosition.Builder()
+                                .target(newPosition)
+                                .zoom(originalZoom)
+                                .build()));
+
+                        marker.setRotation(getBearing(startPosition, new LatLng(destinationLat, destinationlon)));
+                    } catch (Exception ex) {
+                        //I don't care atm..
+                    }
+                }
+            });
+            valueAnimator.addListener(new AnimatorListenerAdapter() {
+                @Override
+                public void onAnimationEnd(Animator animation) {
+                    super.onAnimationEnd(animation);
+
+                    // if (mMarker != null) {
+                    // mMarker.remove();
+                    // }
+                    // mMarker = googleMap.addMarker(new MarkerOptions().position(endPosition).icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_car)));
+
+                }
+            });
+            valueAnimator.start();
+        }
+    }
+
+    private interface LatLngInterpolatorNew {
+        LatLng interpolate(float fraction, LatLng a, LatLng b);
+
+        class LinearFixed implements LatLngInterpolatorNew {
+            @Override
+            public LatLng interpolate(float fraction, LatLng a, LatLng b) {
+                double lat = (b.latitude - a.latitude) * fraction + a.latitude;
+                double lngDelta = b.longitude - a.longitude;
+                // Take the shortest path across the 180th meridian.
+                if (Math.abs(lngDelta) > 180) {
+                    lngDelta -= Math.signum(lngDelta) * 360;
+                }
+                double lng = lngDelta * fraction + a.longitude;
+                return new LatLng(lat, lng);
+            }
+        }
+    }
+    //Method for finding bearing between two points
+    private float getBearing(LatLng begin, LatLng end) {
+        double lat = Math.abs(begin.latitude - end.latitude);
+        double lng = Math.abs(begin.longitude - end.longitude);
+
+        if (begin.latitude < end.latitude && begin.longitude < end.longitude)
+            return (float) (Math.toDegrees(Math.atan(lng / lat)));
+        else if (begin.latitude >= end.latitude && begin.longitude < end.longitude)
+            return (float) ((90 - Math.toDegrees(Math.atan(lng / lat))) + 90);
+        else if (begin.latitude >= end.latitude && begin.longitude >= end.longitude)
+            return (float) (Math.toDegrees(Math.atan(lng / lat)) + 180);
+        else if (begin.latitude < end.latitude && begin.longitude >= end.longitude)
+            return (float) ((90 - Math.toDegrees(Math.atan(lng / lat))) + 270);
+        return -1;
+    }
+
 }

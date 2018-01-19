@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:2:1-63:12
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:2:1-73:12
 	package
 		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
@@ -33,12 +33,21 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:12:22-76
+permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:14:17-72
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:16:22-72
 application
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:14:5-61:19
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:18:5-71:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/emxcel/.android/build-cache/311f29f24487654f47171f80f7dbbe89cd72c286/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/emxcel/.android/build-cache/a9dd856beb8932b3f0724d146665cd942f3b569e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/emxcel/.android/build-cache/cb1b603d48e37e31fad1537a99bea7ac56d32cf9/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:26.1.0] /home/emxcel/.android/build-cache/ec4edfbb67170ebc01163d4845187d3f144ae16f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/emxcel/.android/build-cache/f1681e343d404267f00e5bc7f26c6c94e66728f3/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/emxcel/.android/build-cache/15b992ad12a52171a448fe782ee4dda3591b3c68/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services:11.0.4] /home/emxcel/.android/build-cache/f193471b13ec0f80e41035e87cad123af1e0caeb/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:23:5-26:19
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:26:5-19
@@ -47,9 +56,9 @@ MERGED from [com.google.android.gms:play-services-auth:11.0.4] /home/emxcel/.and
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:4:5-8:19
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] /home/emxcel/.android/build-cache/92cd7436267d9a9e4d68a89d142491b3f7b5ce66/output/AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/518088ca5dd4a7499fc94e8ac4035136d405ee59/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/02e50e012e970cfcb5659f00ba073a95106aa5f2/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/emxcel/.android/build-cache/b1d76ad1c0713ac26723e7660fbc70f13b764360/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/emxcel/.android/build-cache/e6fbab6998cd2053c186f0d1a3e7a933e0db1e26/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:palette-v7:25.2.0] /home/emxcel/.android/build-cache/1a538bf2a03c749eb045ca5d7e86558e0f0c8530/output/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /home/emxcel/.android/build-cache/3d3b088a669dc8590d87469ffce8d03a6016c7ca/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-config:11.0.4] /home/emxcel/.android/build-cache/3eca8415f42c422b45a36fbca7c09190fa12b2da/output/AndroidManifest.xml:18:5-19
@@ -86,113 +95,137 @@ MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/emxcel/
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/emxcel/.android/build-cache/e870f40dee73728800af4f6b7c6c5b8cf3f057d3/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/emxcel/.android/build-cache/c4a564ff7547920f430a5039a1d5798b3616a246/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/emxcel/.android/build-cache/c8f30cf58b8429aad325a16c49cc87977796c71f/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/ae8e42718fc59b8a7b3034554e350c0465eac238/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/emxcel/.android/build-cache/a3e4e7cb48c54116961bdd8ddbf4f751c996ace1/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/emxcel/.android/build-cache/91b58e367b003b44e33d647a3583a1070b744078/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/emxcel/.android/build-cache/1a0c92afabff1bd4966fd31af469ad22c1b5d42e/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/f8f32185e2c1aa570d33bcea0dd984238c7b06fe/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.1.0] /home/emxcel/.android/build-cache/5718494e6854197c5f2aa3078820cc32cba23d68/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/emxcel/.android/build-cache/e8b196b687867df8a82854f9c262f2aa3a9dcaf1/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/emxcel/.android/build-cache/644968f4c2b6f9407c240025f483cc02219226f7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/emxcel/.android/build-cache/ab214c261fcec8017aa837151d4dbed9e53c98f3/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/emxcel/.android/build-cache/b51c11b12886761a3676d8a705fd55ab5cf5240d/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/emxcel/.android/build-cache/f03dffa2d372a163c184d2371aac0a776b9a0a21/output/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:22:9-41
 	android:supportsRtl
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:24:9-35
 	android:roundIcon
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:18:9-54
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:23:9-54
 	android:allowBackup
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:16:9-43
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:21:9-43
 	android:theme
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:20:9-40
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:19:9-47
 activity#com.prerak.demo.MainActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:21:9-50
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:26:9-50
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:21:19-47
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:26:19-47
 activity#com.prerak.demo.SignUpActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:22:9-52
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:27:9-52
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:22:19-49
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:27:19-49
 activity#com.prerak.demo.dogbreads.DogMainActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:23:9-63
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:23:19-60
-activity#com.prerak.demo.dogbreads.DogImageActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:24:9-64
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:24:19-61
-activity#com.prerak.demo.dogbreads.SubBreadActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:25:9-64
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:25:19-61
-activity#com.prerak.demo.dogbreads.SubBreadImageActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:26:9-69
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:26:19-66
-activity#com.prerak.demo.bottomsheets.MainBottomSheetActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:27:9-74
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:27:19-71
-activity#com.prerak.demo.imageupload.ImageActivity
 ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:28:9-63
 	android:name
 		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:28:19-60
+activity#com.prerak.demo.dogbreads.DogImageActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:29:9-64
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:29:19-61
+activity#com.prerak.demo.dogbreads.SubBreadActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:30:9-64
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:30:19-61
+activity#com.prerak.demo.dogbreads.SubBreadImageActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:31:19-66
+activity#com.prerak.demo.bottomsheets.MainBottomSheetActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:32:9-74
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:32:19-71
+activity#com.prerak.demo.imageupload.ImageActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:33:9-63
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:33:19-60
 meta-data#com.google.android.gms.version
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:38:9-40:69
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:43:9-45:69
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/emxcel/.android/build-cache/c4a564ff7547920f430a5039a1d5798b3616a246/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:40:13-66
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:45:13-66
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:39:13-58
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:44:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:41:9-43:55
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:46:9-48:55
 	android:value
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:43:13-52
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:48:13-52
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:42:13-58
-activity#com.prerak.demo.mapusingplaceapi.PlaceAPIMap
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:45:9-75
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:45:19-63
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:47:13-58
 activity#com.prerak.demo.googlemapdirection.MapsActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:46:9-48:59
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:50:9-52:59
 	android:label
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:48:13-56
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:47:13-60
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:51:13-60
+activity#com.prerak.demo.mapusingplaceapi.PlaceAPIMap
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:53:9-75
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:53:19-63
 activity#com.prerak.demo.recyclerViewusingspinner.MainRecyclerActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:49:9-55:20
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:54:9-83
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:49:19-80
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:50:13-54:29
-action#android.intent.action.MAIN
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:51:17-69
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:51:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:53:17-77
-	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:53:27-74
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:54:19-80
 activity#com.prerak.demo.recyclerViewwithcheckbox.RecyclerCheckBoxActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:56:9-58:20
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:55:9-87
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:56:19-84
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:55:19-84
 activity#com.prerak.demo.recyclerViewwithcheckbox.DisplayCheckboxActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:59:9-86
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:56:9-86
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:59:19-83
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:56:19-83
 activity#com.prerak.demo.recyclerViewusingspinner.DisplaySpinnerActivity
-ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:60:9-94
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:57:9-85
 	android:name
-		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:60:19-82
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:57:19-82
+activity#com.prerak.demo.got.model.BookActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:58:9-60
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:58:19-57
+activity#com.prerak.demo.music.MainMusicActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:59:9-65:20
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:59:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:60:13-64:29
+action#android.intent.action.MAIN
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:63:27-74
+service#com.prerak.demo.music.service.MusicService
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:67:9-63
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:67:18-60
+activity#com.prerak.demo.music.fragment.TestFragment
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:69:9-65
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:69:19-62
+activity#com.prerak.demo.realm.RealmMainActivity
+ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:70:9-70
+	android:name
+		ADDED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml:70:19-58
 uses-sdk
 INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /home/emxcel/.android/build-cache/beccc2f592baa8912ba64e51a72b17d0fb1f87ae/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/emxcel/.android/build-cache/311f29f24487654f47171f80f7dbbe89cd72c286/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.intuit.sdp:sdp-android:1.0.4] /home/emxcel/.android/build-cache/eff2ac1f71785f7265777247bf2a4f6f2e496390/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/267438b554336d14e2cf5b97d3b9724a60f46714/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/emxcel/.android/build-cache/a9dd856beb8932b3f0724d146665cd942f3b569e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/emxcel/.android/build-cache/cb1b603d48e37e31fad1537a99bea7ac56d32cf9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.1.0] /home/emxcel/.android/build-cache/ec4edfbb67170ebc01163d4845187d3f144ae16f/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/emxcel/.android/build-cache/f1681e343d404267f00e5bc7f26c6c94e66728f3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/emxcel/.android/build-cache/15b992ad12a52171a448fe782ee4dda3591b3c68/output/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services:11.0.4] /home/emxcel/.android/build-cache/f193471b13ec0f80e41035e87cad123af1e0caeb/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-ads:11.0.4] /home/emxcel/.android/build-cache/5bc4b419f0be4458542f68dce74c4bb28fc5fe42/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:22:5-43
@@ -204,9 +237,9 @@ MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /home/emxcel
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] /home/emxcel/.android/build-cache/92cd7436267d9a9e4d68a89d142491b3f7b5ce66/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/518088ca5dd4a7499fc94e8ac4035136d405ee59/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/02e50e012e970cfcb5659f00ba073a95106aa5f2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/emxcel/.android/build-cache/b1d76ad1c0713ac26723e7660fbc70f13b764360/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/emxcel/.android/build-cache/e6fbab6998cd2053c186f0d1a3e7a933e0db1e26/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:palette-v7:25.2.0] /home/emxcel/.android/build-cache/1a538bf2a03c749eb045ca5d7e86558e0f0c8530/output/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /home/emxcel/.android/build-cache/3d3b088a669dc8590d87469ffce8d03a6016c7ca/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-config:11.0.4] /home/emxcel/.android/build-cache/3eca8415f42c422b45a36fbca7c09190fa12b2da/output/AndroidManifest.xml:17:5-43
@@ -250,15 +283,15 @@ MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/emxcel/
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/emxcel/.android/build-cache/e870f40dee73728800af4f6b7c6c5b8cf3f057d3/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/emxcel/.android/build-cache/c4a564ff7547920f430a5039a1d5798b3616a246/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/emxcel/.android/build-cache/c8f30cf58b8429aad325a16c49cc87977796c71f/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/ae8e42718fc59b8a7b3034554e350c0465eac238/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/emxcel/.android/build-cache/a3e4e7cb48c54116961bdd8ddbf4f751c996ace1/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/emxcel/.android/build-cache/91b58e367b003b44e33d647a3583a1070b744078/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/emxcel/.android/build-cache/1a0c92afabff1bd4966fd31af469ad22c1b5d42e/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/f8f32185e2c1aa570d33bcea0dd984238c7b06fe/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:multidex:1.0.1] /home/emxcel/.android/build-cache/beccc2f592baa8912ba64e51a72b17d0fb1f87ae/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:26.1.0] /home/emxcel/.android/build-cache/5718494e6854197c5f2aa3078820cc32cba23d68/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/emxcel/.android/build-cache/e8b196b687867df8a82854f9c262f2aa3a9dcaf1/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/emxcel/.android/build-cache/644968f4c2b6f9407c240025f483cc02219226f7/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/emxcel/.android/build-cache/ab214c261fcec8017aa837151d4dbed9e53c98f3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/emxcel/.android/build-cache/b51c11b12886761a3676d8a705fd55ab5cf5240d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/emxcel/.android/build-cache/f03dffa2d372a163c184d2371aac0a776b9a0a21/output/AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /home/emxcel/.android/build-cache/ec4edfbb67170ebc01163d4845187d3f144ae16f/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
@@ -266,23 +299,23 @@ MERGED from [com.android.support:multidex:1.0.1] /home/emxcel/.android/build-cac
 		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/emxcel/Desktop/Demo/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:design:26.0.0-alpha1] /home/emxcel/.android/build-cache/3bd695f7549e93c047074b9fa1399ae63c86a3a2/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/267438b554336d14e2cf5b97d3b9724a60f46714/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/emxcel/.android/build-cache/a9dd856beb8932b3f0724d146665cd942f3b569e/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/518088ca5dd4a7499fc94e8ac4035136d405ee59/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/emxcel/.android/build-cache/02e50e012e970cfcb5659f00ba073a95106aa5f2/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/emxcel/.android/build-cache/c8f30cf58b8429aad325a16c49cc87977796c71f/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/ae8e42718fc59b8a7b3034554e350c0465eac238/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/emxcel/.android/build-cache/a3e4e7cb48c54116961bdd8ddbf4f751c996ace1/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/emxcel/.android/build-cache/91b58e367b003b44e33d647a3583a1070b744078/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/emxcel/.android/build-cache/1a0c92afabff1bd4966fd31af469ad22c1b5d42e/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/emxcel/.android/build-cache/f8f32185e2c1aa570d33bcea0dd984238c7b06fe/output/AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:cardview-v7:26.1.0] /home/emxcel/.android/build-cache/cb1b603d48e37e31fad1537a99bea7ac56d32cf9/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:design:26.1.0] /home/emxcel/.android/build-cache/ec4edfbb67170ebc01163d4845187d3f144ae16f/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/emxcel/.android/build-cache/f1681e343d404267f00e5bc7f26c6c94e66728f3/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/emxcel/.android/build-cache/15b992ad12a52171a448fe782ee4dda3591b3c68/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/emxcel/.android/build-cache/b1d76ad1c0713ac26723e7660fbc70f13b764360/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/emxcel/.android/build-cache/e6fbab6998cd2053c186f0d1a3e7a933e0db1e26/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/emxcel/.android/build-cache/5718494e6854197c5f2aa3078820cc32cba23d68/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/emxcel/.android/build-cache/e8b196b687867df8a82854f9c262f2aa3a9dcaf1/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/emxcel/.android/build-cache/644968f4c2b6f9407c240025f483cc02219226f7/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/emxcel/.android/build-cache/ab214c261fcec8017aa837151d4dbed9e53c98f3/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/emxcel/.android/build-cache/b51c11b12886761a3676d8a705fd55ab5cf5240d/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:24:9-38
+		ADDED from [com.android.support:cardview-v7:26.1.0] /home/emxcel/.android/build-cache/cb1b603d48e37e31fad1537a99bea7ac56d32cf9/output/AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/emxcel/.android/build-cache/c056a9817b721bbe07368a6590e6f431a99816da/output/AndroidManifest.xml:23:9-47
+		ADDED from [com.android.support:cardview-v7:26.1.0] /home/emxcel/.android/build-cache/cb1b603d48e37e31fad1537a99bea7ac56d32cf9/output/AndroidManifest.xml:24:13-51
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/emxcel/.android/build-cache/09cc4f87ebf5faf66bbaf86ae3597c3771394098/output/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/emxcel/.android/build-cache/29e734258baa95a32d575014206c7155189b67e1/output/AndroidManifest.xml:21:5-78
@@ -525,3 +558,9 @@ ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.andr
 		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/AndroidManifest.xml:19:19-85
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/emxcel/.android/build-cache/f03dffa2d372a163c184d2371aac0a776b9a0a21/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/emxcel/.android/build-cache/f03dffa2d372a163c184d2371aac0a776b9a0a21/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/emxcel/.android/build-cache/f03dffa2d372a163c184d2371aac0a776b9a0a21/output/AndroidManifest.xml:26:13-58

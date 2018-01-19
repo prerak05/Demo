@@ -1,6 +1,8 @@
 package com.prerak.demo.services;
 
 import com.prerak.demo.dogbreads.model.DogBread;
+import com.prerak.demo.got.model.MainModel;
+import com.prerak.demo.got.model.Parent;
 import com.prerak.demo.imageupload.model.Image;
 import com.prerak.demo.model.Login;
 
@@ -43,4 +45,7 @@ public interface APIService {
     @Multipart
     @POST("/images/upload")
     Call<Image> uploadImage(@Part MultipartBody.Part image);
+
+    @GET("api/books")
+    Call<Parent> getBookModelCall();
 }

@@ -3,4 +3,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="desti_add">Enter destination add</string>
     <string name="pickup_add">Enter pickup add</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

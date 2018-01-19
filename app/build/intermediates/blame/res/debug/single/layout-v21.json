@@ -1,7 +1,7 @@
 [
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout-v21/notification_action.xml"
+        "source": "/home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
@@ -9,14 +9,14 @@
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/emxcel/.android/build-cache/aaedc0d57a99031010ed959caa3d1e036b4d436b/output/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/res/layout-v21/notification_template_icon_group.xml"
     }
 ]

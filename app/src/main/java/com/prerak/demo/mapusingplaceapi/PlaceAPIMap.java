@@ -10,6 +10,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -83,7 +84,14 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
         mLocationRequest.setSmallestDisplacement(30);
         mLocationRequest.setInterval(1000);
 
-        getCurrentLocation();
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                getCurrentLocation();
+            }
+        },5000);
+
     }
 
     private void init() {
@@ -163,6 +171,7 @@ public class PlaceAPIMap extends AppCompatActivity implements View.OnClickListen
 
     private void drawRout(LatLng sourceLatLang, LatLng destinationLatLng) {
         mMap.clear();
+
         String url = getDirectionsUrl(new LatLng(sourceLatLang.latitude, sourceLatLang.longitude), new LatLng(destinationLatLng.latitude, destinationLatLng.longitude));
 
         DownloadTask downloadTask = new DownloadTask();
