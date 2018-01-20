@@ -676,7 +676,7 @@ public final class R {
         public static final int give_us_a_review_landmine_text_2 = 0x7f0f0126;
     }
     public static final class layout {
-        public static final int dp_example = 0x7f04003f;
-        public static final int sdp_example = 0x7f040065;
+        public static final int dp_example = 0x7f040040;
+        public static final int sdp_example = 0x7f040068;
     }
 }

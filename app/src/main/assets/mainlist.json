@@ -1,0 +1,151 @@
+{
+	"data": [{
+		"Festival": [{
+				"id": 1,
+				"name": "Holi",
+				"imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Holi_shop.jpg"
+			},
+			{
+				"id": 2,
+				"name": "Velantine",
+				"imageURL": "http://cache.lovethispic.com/uploaded_images/322673-Happy-Valentine-s-Day-Heart%20Book.jpg"
+			},
+			{
+				"id": 3,
+				"name": "Navratri",
+				"imageURL": "http://www.baltana.com/files/wallpapers-5/Happy-Navratri-HQ-Desktop-Wallpaper-15115.jpg"
+			},
+			{
+				"id": 4,
+				"name": "Shivratri",
+				"imageURL": "https://www.harivara.com/wp-content/uploads/2016/11/Rudraabhishekam_Harivara.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Ram Navmi",
+				"imageURL": "https://www.harivara.com/wp-content/uploads/2016/11/Rudraabhishekam_Harivara.jpg"
+			},
+			{
+				"id": 6,
+				"name": "christmas",
+				"imageURL": "http://santoras.com/wp-content/uploads/2016/07/christmas.jpg"
+			}
+
+		]
+	},
+	{
+	"Featured Artists": [{
+				"id": 1,
+				"name": "Arijit Singh",
+				"imageURL": "https://res.cloudinary.com/cii/image/upload/f_auto,q_auto/v1509344843/arijit-singh-photo.jpg"
+			},
+			{
+				"id": 2,
+				"name": "Pritam",
+				"imageURL": "http://images.indianexpress.com/2017/10/pritam-759.jpg"
+			},{
+				"id": 3,
+				"name": "Arman Malik",
+				"imageURL": "http://celebephotos.com/wp-content/uploads/2017/03/Armaan-Malik-Stylish-HD-Wallpapers-Wrist-Watch-2017.png"
+			},
+			{
+				"id": 4,
+				"name": "Neha Kakkar",
+				"imageURL": "http://holyimages.net/wp-content/uploads/2017/06/Neha-Kakkar-picture.jpg"
+			},
+			{
+				"id": 5,
+				"name": "Vishal Dadlani",
+				"imageURL": "http://www.thesundayindian.com/userfiles/vishal.JPG"
+			},
+			{
+				"id": 6,
+				"name": "Shankar Ehsaan Loy",
+				"imageURL": "http://images.indianexpress.com/2015/06/ehsaannoorani759.jpg"
+			},
+		    {
+				"id": 7,
+				"name": "Shreya Ghoshal",
+				"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+			}]
+	},
+		{
+			"Item Number": [{
+				"id": 1,
+				"name": "Chikni Chameli",
+				"imageURL": "https://res.cloudinary.com/cii/image/upload/f_auto,q_auto/v1509344843/arijit-singh-photo.jpg"
+			},
+				{
+					"id": 2,
+					"name": "Fevicol Se",
+					"imageURL": "http://images.indianexpress.com/2017/10/pritam-759.jpg"
+				},{
+					"id": 3,
+					"name": "Kamli",
+					"imageURL": "http://celebephotos.com/wp-content/uploads/2017/03/Armaan-Malik-Stylish-HD-Wallpapers-Wrist-Watch-2017.png"
+				},
+				{
+					"id": 4,
+					"name": "Mit Jaaye Gham",
+					"imageURL": "http://holyimages.net/wp-content/uploads/2017/06/Neha-Kakkar-picture.jpg"
+				},
+				{
+					"id": 5,
+					"name": "Babuji Zara Dheere Chalo",
+					"imageURL": "http://www.thesundayindian.com/userfiles/vishal.JPG"
+				},
+				{
+					"id": 6,
+					"name": "Munni Badnaam Hui",
+					"imageURL": "http://images.indianexpress.com/2015/06/ehsaannoorani759.jpg"
+				},
+				{
+					"id": 7,
+					"name": "Sheila Ki Jawani",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 8,
+					"name": "Character Dheela",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 9,
+					"name": "Laila",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 10,
+					"name": "Dhating Naach",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 11,
+					"name": "Dhak Dhak Karne Laga",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 12,
+					"name": "Ram Chahe Leela",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 13,
+					"name": "Mashallah",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 14,
+					"name": "Pinky",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				},
+				{
+					"id": 15,
+					"name": "Baby Doll",
+					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+				}
+			]
+		}
+	]
+}
+

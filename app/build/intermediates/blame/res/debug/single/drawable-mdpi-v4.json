@@ -8,32 +8,32 @@
         "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_volume_off_white_36.png"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_white_36.png",
-        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_cast_white_36.png"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png",
         "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png",
-        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png"
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_white_36.png",
+        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_cast_white_36.png"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
         "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png",
+        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png"
+    },
+    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_grey600_36.png",
         "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_pause_grey600_36.png"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_dialog_close_dark.png",
-        "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/drawable-mdpi-v4/ic_dialog_close_dark.png"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png",
         "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_dialog_close_dark.png",
+        "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/drawable-mdpi-v4/ic_dialog_close_dark.png"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_48.png",
@@ -48,12 +48,12 @@
         "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/drawable-mdpi-v4/ic_vol_type_speaker_light.png"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png",
-        "source": "/home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_previous_grey600_36.png",
         "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_grey600_36.png"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_mr_button_disabled_dark.png",
@@ -108,12 +108,12 @@
         "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable-mdpi-v4/quantum_ic_closed_caption_grey600_36.png"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/googleg_standard_color_18.png",
-        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable-mdpi-v4/googleg_standard_color_18.png"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/googleg_standard_color_18.png",
+        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_stop_grey600_36.png",

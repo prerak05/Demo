@@ -192,6 +192,10 @@
         "source": "/home/emxcel/.android/build-cache/71f625b564962f03cb82738a0bcd13f8b9ca30a1/output/res/layout/mr_playback_control.xml"
     },
     {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/activity_select_your_catagory.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/activity_select_your_catagory.xml"
+    },
+    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/remoteview_notification.xml",
         "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/remoteview_notification.xml"
     },
@@ -360,6 +364,10 @@
         "source": "/home/emxcel/.android/build-cache/41ce05f2022c84964121bf7ecfde6dadffd81430/output/res/layout/notification_action_tombstone.xml"
     },
     {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/list_single_card.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/list_single_card.xml"
+    },
+    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/raw_music_sample.xml",
         "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/raw_music_sample.xml"
     },
@@ -414,6 +422,10 @@
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/raw_category_list.xml",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/layout/raw_category_list.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/layout/cast_expanded_controller_activity.xml",

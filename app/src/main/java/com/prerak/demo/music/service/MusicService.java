@@ -385,11 +385,12 @@ public class MusicService extends Service implements MediaPlayer.OnCompletionLis
         //reset mediaPlayer
         mediaPlayer.reset();
         initMediaPlayer();
+        buildNotification(PlaybackStatus.PLAYING);
         Intent i = new Intent("android.intent.action.MAIN").putExtra("songName", audioList.get(audioIndex).getName().toString())
                 .putExtra("play", "play");
         this.sendBroadcast(i);
         this.stopSelf();
-        buildNotification(PlaybackStatus.PLAYING);
+
     }
 
     private void skipToPrevious() {
@@ -404,14 +405,17 @@ public class MusicService extends Service implements MediaPlayer.OnCompletionLis
             mediaFile = audioList.get(audioIndex).getUrl();
         }
         stopMedia();
-        //reset mediaPlayer
-        mediaPlayer.reset();
-        initMediaPlayer();
-        Intent i = new Intent("android.intent.action.MAIN").putExtra("songName", audioList.get(audioIndex).getName().toString())
+        Intent i = new Intent("android.intent.action.MAIN")
+                .putExtra("songName", audioList.get(audioIndex).getName().toString())
                 .putExtra("play", "play");
         this.sendBroadcast(i);
         this.stopSelf();
+        //reset mediaPlayer
+        mediaPlayer.reset();
+        initMediaPlayer();
         buildNotification(PlaybackStatus.PLAYING);
+
+
     }
 
 

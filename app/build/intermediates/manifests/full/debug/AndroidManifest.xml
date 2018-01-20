@@ -13,7 +13,7 @@
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
+         location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -57,7 +57,7 @@
              Note that the API key is linked to the encryption key used to sign the APK.
              You need a different API key for each encryption key, including the release key that is used to
              sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <meta-data
             android:name="com.google.android.gms.version"
@@ -76,17 +76,19 @@
         <activity android:name="com.prerak.demo.recyclerViewusingspinner.DisplaySpinnerActivity" />
         <activity android:name="com.prerak.demo.got.model.BookActivity" />
         <activity android:name="com.prerak.demo.music.MainMusicActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service android:name="com.prerak.demo.music.service.MusicService" />
 
         <activity android:name="com.prerak.demo.music.fragment.TestFragment" />
         <activity android:name="com.prerak.demo.realm.RealmMainActivity" />
+        <activity android:name="com.prerak.demo.music.SelectYourCatagoryActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"

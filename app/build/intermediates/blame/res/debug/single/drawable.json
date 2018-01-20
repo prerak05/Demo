@@ -8,16 +8,16 @@
         "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
-        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable/cast_ic_expanded_controller_stop.xml"
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/image5.jpeg",
         "source": "/home/emxcel/Desktop/Demo/app/src/main/res/drawable/image5.jpeg"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/home/emxcel/.android/build-cache/7f19d62148a7f9605fb211f22d1cd28f99cceb25/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
+        "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable/cast_ic_expanded_controller_stop.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/img_btn_next_pressed.png",
@@ -36,24 +36,24 @@
         "source": "/home/emxcel/.android/build-cache/1ef6fb17580d119371bdf21fb828c9a3a114ed2d/output/res/drawable/cast_mini_controller_gradient_light.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/btn_repeat_focused.xml",
         "source": "/home/emxcel/Desktop/Demo/app/src/main/res/drawable/btn_repeat_focused.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/btn_next.xml",
         "source": "/home/emxcel/Desktop/Demo/app/src/main/res/drawable/btn_next.xml"
     },
     {
-        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/img_btn_pause_pressed.png",
-        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/drawable/img_btn_pause_pressed.png"
-    },
-    {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/home/emxcel/.android/build-cache/d5d06a1ecc716b2050e19f5af079893d448f03a2/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/img_btn_pause_pressed.png",
+        "source": "/home/emxcel/Desktop/Demo/app/src/main/res/drawable/img_btn_pause_pressed.png"
     },
     {
         "merged": "/home/emxcel/Desktop/Demo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
