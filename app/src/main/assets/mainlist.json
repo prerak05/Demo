@@ -1,151 +1,243 @@
 {
-	"data": [{
-		"Festival": [{
-				"id": 1,
-				"name": "Holi",
-				"imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Holi_shop.jpg"
-			},
-			{
-				"id": 2,
-				"name": "Velantine",
-				"imageURL": "http://cache.lovethispic.com/uploaded_images/322673-Happy-Valentine-s-Day-Heart%20Book.jpg"
-			},
-			{
-				"id": 3,
-				"name": "Navratri",
-				"imageURL": "http://www.baltana.com/files/wallpapers-5/Happy-Navratri-HQ-Desktop-Wallpaper-15115.jpg"
-			},
-			{
-				"id": 4,
-				"name": "Shivratri",
-				"imageURL": "https://www.harivara.com/wp-content/uploads/2016/11/Rudraabhishekam_Harivara.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Ram Navmi",
-				"imageURL": "https://www.harivara.com/wp-content/uploads/2016/11/Rudraabhishekam_Harivara.jpg"
-			},
-			{
-				"id": 6,
-				"name": "christmas",
-				"imageURL": "http://santoras.com/wp-content/uploads/2016/07/christmas.jpg"
-			}
-
-		]
-	},
-	{
-	"Featured Artists": [{
-				"id": 1,
-				"name": "Arijit Singh",
-				"imageURL": "https://res.cloudinary.com/cii/image/upload/f_auto,q_auto/v1509344843/arijit-singh-photo.jpg"
-			},
-			{
-				"id": 2,
-				"name": "Pritam",
-				"imageURL": "http://images.indianexpress.com/2017/10/pritam-759.jpg"
-			},{
-				"id": 3,
-				"name": "Arman Malik",
-				"imageURL": "http://celebephotos.com/wp-content/uploads/2017/03/Armaan-Malik-Stylish-HD-Wallpapers-Wrist-Watch-2017.png"
-			},
-			{
-				"id": 4,
-				"name": "Neha Kakkar",
-				"imageURL": "http://holyimages.net/wp-content/uploads/2017/06/Neha-Kakkar-picture.jpg"
-			},
-			{
-				"id": 5,
-				"name": "Vishal Dadlani",
-				"imageURL": "http://www.thesundayindian.com/userfiles/vishal.JPG"
-			},
-			{
-				"id": 6,
-				"name": "Shankar Ehsaan Loy",
-				"imageURL": "http://images.indianexpress.com/2015/06/ehsaannoorani759.jpg"
-			},
-		    {
-				"id": 7,
-				"name": "Shreya Ghoshal",
-				"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-			}]
-	},
-		{
-			"Item Number": [{
-				"id": 1,
-				"name": "Chikni Chameli",
-				"imageURL": "https://res.cloudinary.com/cii/image/upload/f_auto,q_auto/v1509344843/arijit-singh-photo.jpg"
-			},
-				{
-					"id": 2,
-					"name": "Fevicol Se",
-					"imageURL": "http://images.indianexpress.com/2017/10/pritam-759.jpg"
-				},{
-					"id": 3,
-					"name": "Kamli",
-					"imageURL": "http://celebephotos.com/wp-content/uploads/2017/03/Armaan-Malik-Stylish-HD-Wallpapers-Wrist-Watch-2017.png"
-				},
-				{
-					"id": 4,
-					"name": "Mit Jaaye Gham",
-					"imageURL": "http://holyimages.net/wp-content/uploads/2017/06/Neha-Kakkar-picture.jpg"
-				},
-				{
-					"id": 5,
-					"name": "Babuji Zara Dheere Chalo",
-					"imageURL": "http://www.thesundayindian.com/userfiles/vishal.JPG"
-				},
-				{
-					"id": 6,
-					"name": "Munni Badnaam Hui",
-					"imageURL": "http://images.indianexpress.com/2015/06/ehsaannoorani759.jpg"
-				},
-				{
-					"id": 7,
-					"name": "Sheila Ki Jawani",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 8,
-					"name": "Character Dheela",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 9,
-					"name": "Laila",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 10,
-					"name": "Dhating Naach",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 11,
-					"name": "Dhak Dhak Karne Laga",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 12,
-					"name": "Ram Chahe Leela",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 13,
-					"name": "Mashallah",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 14,
-					"name": "Pinky",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				},
-				{
-					"id": 15,
-					"name": "Baby Doll",
-					"imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
-				}
-			]
-		}
-	]
+  "data": [
+    {
+      "Festival": [
+        {
+          "id": 1,
+          "name": "Holi",
+          "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Holi_shop.jpg",
+          "Song List": [
+            {
+              "id": 1,
+              "name": "Badri Ki Dulhania",
+              "songURL": "",
+              "songImg": "http://atozmusic.in/wp-content/uploads/2017/05/Badri-Ki-Dulhania-414x414.jpg"
+            },
+            {
+              "id": 2,
+              "name": "Soni Soni",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 3,
+              "name": "Go Pagal",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 4,
+              "name": "Balam Pichkari",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 5,
+              "name": "Rang Barse",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 6,
+              "name": "Chhan Ke Mohalla",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 7,
+              "name": "Do Me A Favour Lets Play Holi",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 8,
+              "name": "Lahu Munh Lag Gaya",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 9,
+              "name": "Holi Ke Din Dil Khil Jaaten",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 10,
+              "name": "Aaj Na Chhodenge",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 11,
+              "name": "Hori Khele Raghuveera",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 12,
+              "name": "Aye Gori",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 13,
+              "name": "Tapkey Masti",
+              "songURL": "",
+              "songImg": ""
+            },
+            {
+              "id": 14,
+              "name": "Dekho Aayi Re Holi",
+              "songURL": "",
+              "songImg": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Velantine",
+          "imageURL": "http://cache.lovethispic.com/uploaded_images/322673-Happy-Valentine-s-Day-Heart%20Book.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Navratri",
+          "imageURL": "http://www.baltana.com/files/wallpapers-5/Happy-Navratri-HQ-Desktop-Wallpaper-15115.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Shivratri",
+          "imageURL": "https://www.harivara.com/wp-content/uploads/2016/11/Rudraabhishekam_Harivara.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Ram Navmi",
+          "imageURL": "https://www.harivara.com/wp-content/uploads/2016/11/Rudraabhishekam_Harivara.jpg"
+        },
+        {
+          "id": 6,
+          "name": "christmas",
+          "imageURL": "http://santoras.com/wp-content/uploads/2016/07/christmas.jpg"
+        }
+      ]
+    },
+    {
+      "Featured Artists": [
+        {
+          "id": 1,
+          "name": "Arijit Singh",
+          "imageURL": "https://res.cloudinary.com/cii/image/upload/f_auto,q_auto/v1509344843/arijit-singh-photo.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Pritam",
+          "imageURL": "http://images.indianexpress.com/2017/10/pritam-759.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Arman Malik",
+          "imageURL": "http://celebephotos.com/wp-content/uploads/2017/03/Armaan-Malik-Stylish-HD-Wallpapers-Wrist-Watch-2017.png"
+        },
+        {
+          "id": 4,
+          "name": "Neha Kakkar",
+          "imageURL": "http://holyimages.net/wp-content/uploads/2017/06/Neha-Kakkar-picture.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Vishal Dadlani",
+          "imageURL": "http://www.thesundayindian.com/userfiles/vishal.JPG"
+        },
+        {
+          "id": 6,
+          "name": "Shankar Ehsaan Loy",
+          "imageURL": "http://images.indianexpress.com/2015/06/ehsaannoorani759.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Shreya Ghoshal",
+          "imageURL": "http://2.bp.blogspot.com/-_M06JbRMmRM/UHF7Xx_MsZI/AAAAAAAAA4k/VamFMK_EBxA/s1600/SHREYA+GHOSAL+HOT+PICS+%255BChandramani123%255D+%257BHRG%257D+%252810%2529.jpg"
+        }
+      ]
+    },
+    {
+      "Item Number": [
+        {
+          "id": 1,
+          "name": "Chikni Chameli",
+          "imageURL": "http://3.bp.blogspot.com/-4Iw0HmArLPU/TuzyX_B8rWI/AAAAAAAAPFA/3Mapfszl8ko/s1600/8.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Fevicol Se",
+          "imageURL": "http://static.sify.com/cms/image/mmsreXfeehfsi_medium.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Kamli",
+          "imageURL": "https://c.saavncdn.com/643/Kamli-Electrified-Dance-Numbers-2014-500x500.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Mit Jaaye Gham",
+          "imageURL": "http://static.koimoi.com/wp-content/new-galleries/2011/04/Dum-Maaro-Dum-Review-02.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Babuji Zara Dheere Chalo",
+          "imageURL": "https://c.saavncdn.com/799/Dum-Hindi-2009-50x50.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Munni Badnaam Hui",
+          "imageURL": "https://cdn.bollywoodbubble.com/wp-content/uploads/2015/09/8.-Munni-Badnaam-Hui.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Sheila Ki Jawani",
+          "imageURL": "http://img01.ibnlive.in/ibnlive/uploads/2010/11/sheelakijawani630.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Character Dheela",
+          "imageURL": "http://4.bp.blogspot.com/-tWpRDqOnOTM/VWWQWhqf3aI/AAAAAAAACgE/1bdtZIwVcR8/s1600/Character_Dheela_Image%2Bcopy.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Laila",
+          "imageURL": "http://www.lyricsted.com/wp-content/uploads/2016/12/laila-main-laila-lyrics-raees-sunny-leone-song-400x253.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Dhating Naach",
+          "imageURL": "http://www.bollywoodlife.com/wp-content/uploads/2013/09/Dhating-naach1.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Dhak Dhak Karne Laga",
+          "imageURL": "http://4.bp.blogspot.com/-f3KKepD8ROU/TcjtmBjvYZI/AAAAAAAAACY/gUFPBHQplCk/s1600/dhakdhak.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Ram Chahe Leela",
+          "imageURL": "http://lyricsed.com/wp-content/uploads/2016/06/Ram-Chahe-Leela-Song-Lyrics-Ram-Leela.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Mashallah",
+          "imageURL": "http://1.bp.blogspot.com/-xkgjG96m0t8/T_7WfMaNkXI/AAAAAAAAAss/KRL90meI27I/s1600/mashallah+ek+tha+tiger+salman+katrina+YoursPJ.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Pinky",
+          "imageURL": "http://static.koimoi.com/wp-content/new-galleries/2013/08/Priyanka-Chopra-in-Zanjeer-2013-Movie-Stills-Pic-1.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Baby Doll",
+          "imageURL": "http://images.indianexpress.com/2015/11/sunny-leone-baby-doll-759.jpg"
+        }
+      ]
+    }
+  ]
 }
 

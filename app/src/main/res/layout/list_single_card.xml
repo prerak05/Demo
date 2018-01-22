@@ -16,7 +16,7 @@
 
         <ImageView
             android:id="@+id/itemImage"
-            android:layout_width="@dimen/_120sdp"
+            android:layout_width="@dimen/_130sdp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitCenter"
@@ -32,7 +32,7 @@
             android:padding="5dp"
             android:text="Sample title"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/_14sdp" />
+            android:textSize="@dimen/_10sdp" />
 
 
     </LinearLayout>
